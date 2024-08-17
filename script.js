@@ -17,7 +17,7 @@ function addRecommendation() {
     recommendation.value = "";
   }
 }
-
+//Shows pop up after submitting a recommendation
 function showPopup(bool) {
   if (bool) {
     document.getElementById('popup').style.visibility = 'visible'
